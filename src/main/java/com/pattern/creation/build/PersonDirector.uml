@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.pattern.learn.creation.build.PersonDirector</OriginalElement>
+  <nodes>
+    <node x="395.5" y="0.0">com.pattern.learn.creation.build.PersonBuilder</node>
+    <node x="292.0" y="173.0">com.pattern.learn.creation.build.WomanBuilder</node>
+    <node x="10.75" y="0.0">com.pattern.learn.creation.build.Person</node>
+    <node x="0.0" y="335.0">com.pattern.learn.creation.build.Man</node>
+    <node x="499.0" y="173.0">com.pattern.learn.creation.build.ManBuilder</node>
+    <node x="124.0" y="335.0">com.pattern.learn.creation.build.Woman</node>
+    <node x="0.0" y="434.0">com.pattern.learn.creation.build.PersonDirector</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.pattern.learn.creation.build.Man" target="com.pattern.learn.creation.build.Person">
+      <point x="0.0" y="-27.0" />
+      <point x="52.0" y="310.0" />
+      <point x="64.75" y="310.0" />
+      <point x="-54.0" y="142.5" />
+    </edge>
+    <edge source="com.pattern.learn.creation.build.Woman" target="com.pattern.learn.creation.build.Person">
+      <point x="0.0" y="-27.0" />
+      <point x="185.5" y="310.0" />
+      <point x="172.75" y="310.0" />
+      <point x="54.0" y="142.5" />
+    </edge>
+    <edge source="com.pattern.learn.creation.build.WomanBuilder" target="com.pattern.learn.creation.build.PersonBuilder">
+      <point x="0.0" y="-73.5" />
+      <point x="385.5" y="148.0" />
+      <point x="442.25" y="148.0" />
+      <point x="-46.75" y="61.5" />
+    </edge>
+    <edge source="com.pattern.learn.creation.build.ManBuilder" target="com.pattern.learn.creation.build.PersonBuilder">
+      <point x="0.0" y="-73.5" />
+      <point x="592.5" y="148.0" />
+      <point x="535.75" y="148.0" />
+      <point x="46.75" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="221.5" y="276.0" />
+  <SelectedNodes>
+    <node>com.pattern.learn.creation.build.PersonBuilder</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

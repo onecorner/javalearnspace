@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.pattern.Behavioral.strategy.Context</OriginalElement>
+  <nodes>
+    <node x="694.0" y="137.5">com.pattern.Behavioral.strategy.OldCustomerFewStrategy</node>
+    <node x="174.96428571428572" y="265.0">com.pattern.Behavioral.strategy.StrategyClient</node>
+    <node x="465.0" y="137.5">com.pattern.Behavioral.strategy.OldCustomerLargeStrategy</node>
+    <node x="229.0" y="114.0">com.pattern.Behavioral.strategy.Context</node>
+    <node x="0.0" y="137.5">com.pattern.Behavioral.strategy.NewCustomerFewStrategy</node>
+    <node x="923.0" y="137.5">com.pattern.Behavioral.strategy.NewCustomerLargeStrategy</node>
+    <node x="375.75" y="0.0">com.pattern.Behavioral.strategy.Strategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.pattern.Behavioral.strategy.StrategyClient" target="com.pattern.Behavioral.strategy.Context">
+      <point x="57.66666666666666" y="-27.0" />
+      <point x="319.1309523809524" y="240.0" />
+      <point x="391.0" y="240.0" />
+      <point x="54.0" y="50.5" />
+    </edge>
+    <edge source="com.pattern.Behavioral.strategy.Context" target="com.pattern.Behavioral.strategy.Strategy">
+      <point x="54.0" y="-50.5" />
+      <point x="391.0" y="94.0" />
+      <point x="462.8333333333333" y="94.0" />
+      <point x="-17.416666666666686" y="27.0" />
+    </edge>
+    <edge source="com.pattern.Behavioral.strategy.OldCustomerFewStrategy" target="com.pattern.Behavioral.strategy.Strategy">
+      <point x="0.0" y="-27.0" />
+      <point x="798.5" y="84.0" />
+      <point x="532.5" y="84.0" />
+      <point x="52.25" y="27.0" />
+    </edge>
+    <edge source="com.pattern.Behavioral.strategy.NewCustomerLargeStrategy" target="com.pattern.Behavioral.strategy.Strategy">
+      <point x="0.0" y="-27.0" />
+      <point x="1028.5" y="74.0" />
+      <point x="567.3333333333333" y="74.0" />
+      <point x="87.08333333333331" y="27.0" />
+    </edge>
+    <edge source="com.pattern.Behavioral.strategy.NewCustomerFewStrategy" target="com.pattern.Behavioral.strategy.Strategy">
+      <point x="0.0" y="-27.0" />
+      <point x="104.5" y="74.0" />
+      <point x="393.1666666666667" y="74.0" />
+      <point x="-87.08333333333331" y="27.0" />
+    </edge>
+    <edge source="com.pattern.Behavioral.strategy.StrategyClient" target="com.pattern.Behavioral.strategy.NewCustomerFewStrategy">
+      <point x="-57.66666666666666" y="-27.0" />
+      <point x="203.79761904761904" y="240.0" />
+      <point x="104.5" y="240.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.pattern.Behavioral.strategy.OldCustomerLargeStrategy" target="com.pattern.Behavioral.strategy.Strategy">
+      <point x="0.0" y="-27.0" />
+      <point x="569.5" y="94.0" />
+      <point x="497.6666666666667" y="94.0" />
+      <point x="17.416666666666686" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.841421143847487" x="567.0" y="159.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.pattern.Behavioral.state.State</OriginalElement>
+  <nodes>
+    <node x="522.0" y="104.0">com.pattern.Behavioral.state.CheckedState</node>
+    <node x="224.5" y="0.0">com.pattern.Behavioral.state.State</node>
+    <node x="202.0" y="-105.0">com.pattern.Behavioral.state.Context</node>
+    <node x="360.0" y="104.0">com.pattern.Behavioral.state.BookedState</node>
+    <node x="0.0" y="104.0">com.pattern.Behavioral.state.FreeState</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.pattern.Behavioral.state.CheckedState" target="com.pattern.Behavioral.state.State">
+      <point x="0.0" y="-27.0" />
+      <point x="593.0" y="74.0" />
+      <point x="352.3" y="74.0" />
+      <point x="56.80000000000001" y="27.0" />
+    </edge>
+    <edge source="com.pattern.Behavioral.state.FreeState" target="com.pattern.Behavioral.state.State">
+      <point x="0.0" y="-27.0" />
+      <point x="71.0" y="74.0" />
+      <point x="238.7" y="74.0" />
+      <point x="-56.80000000000001" y="27.0" />
+    </edge>
+    <edge source="com.pattern.Behavioral.state.BookedState" target="com.pattern.Behavioral.state.State">
+      <point x="0.0" y="-27.0" />
+      <point x="431.0" y="84.0" />
+      <point x="323.9" y="84.0" />
+      <point x="28.399999999999977" y="27.0" />
+    </edge>
+    <edge source="com.pattern.Behavioral.state.Context" target="com.pattern.Behavioral.state.State">
+      <point x="-44.5" y="-27.0" />
+      <point x="206.5" y="84.0" />
+      <point x="267.1" y="84.0" />
+      <point x="-28.400000000000006" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="332.0" y="79.0" />
+  <SelectedNodes>
+    <node>com.pattern.Behavioral.state.Context</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
